@@ -2,12 +2,12 @@
 
 > 101MB Docker image to convert `*.dot` to `*.png` without installing tons of dependencies
 
-[![Docker Automated buil](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/vladgolubev/dot2png/)
+[![Docker Automated buil](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/patrickgardella/dot2png/)
 
 ## Usage
 
 ```bash
-$ cat file.dot | docker container run --rm -i vladgolubev/dot2png > file.png
+$ cat file.dot | docker container run --rm -i patrickgardella/dot2png > file.png
 ```
 
 ## Help
